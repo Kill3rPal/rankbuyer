@@ -168,3 +168,4 @@ function save(){
 
 }
 
+client.login(process.env.TOKEN);
