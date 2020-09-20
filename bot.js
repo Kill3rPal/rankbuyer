@@ -73,7 +73,7 @@ msg.channel.send(`كردت بروبوت\`${Price}\` لديك 4 دقائق لتح
 إلى ${msg.guild.members.get(id)}
 `).then( msgs =>{
 
-  const filter = response => response.author.id == "282859044593598464" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$${Price2}\` to ${msg.guild.members.get(id)}`);
+  const filter = response => response.author.id == "720115877873451048" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$${Price2}\` to ${msg.guild.members.get(id)}`);
 msg.channel.awaitMessages(filter, { maxMatches: 1, time: 240000, errors: ['time'] })
 .then( collected =>{
 msgs.delete()
@@ -88,7 +88,7 @@ giftc.on("collect", r=>{
 msg.channel.send(`كردت بروبوت\`${Price}\` لديك 4 دقائق لتحويل
 إلى ${msg.guild.members.get(id)}
 `).then( msgs =>{
-  const filter = response => response.author.id == "282859044593598464" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$${Price2}\` to ${msg.guild.members.get(id)}`);
+  const filter = response => response.author.id == "720115877873451048" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$${Price2}\` to ${msg.guild.members.get(id)}`);
   msg.channel.awaitMessages(filter, { maxMatches: 1, time: 240000, errors: ['time'] })
   .then( collected =>{
   msgs.delete()
