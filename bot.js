@@ -41,9 +41,9 @@ client.on('ready', () => {
 let vipKeys = JSON.parse(fs.readFileSync("./vipKeys.json", "utf8"));
 client.on("message", msg=>{
 let id = "720115877873451048"; // ايديك
-let role = "❥▏Seller"; // اسم الرتبه
-let Price = 50; // السعر
-let Price2 = 47
+let role = "Starter"; // اسم الرتبه
+let Price = 2106; // السعر
+let Price2 = 2000
 let cmd = msg.content.split(' ')[0];
 if(cmd === `${prefix}buy`){
 if(msg.author.bot) return;
